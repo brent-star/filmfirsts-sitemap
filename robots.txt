@@ -30,7 +30,7 @@ Allow: /Definitions
 Allow: /Leaderboard
 
 # Sitemap location
-Sitemap: https://filmfirsts.org/sitemap.xml
+Sitemap: https://brent-star.github.io/filmfirsts-sitemap/sitemap.xml
 
 # Crawl delay (be nice to servers)
 Crawl-delay: 1
