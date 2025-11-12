@@ -5,13 +5,13 @@ User-agent: *
 Allow: /
 
 # Block admin and private areas
-Disallow: /admin
-Disallow: /moderation
-Disallow: /managecategories
-Disallow: /manageusers
-Disallow: /settings
-Disallow: /welcome
-Disallow: /editentry
+Disallow: /Admin
+Disallow: /Moderation
+Disallow: /Managecategories
+Disallow: /Manageusers
+Disallow: /Settings
+Disallow: /Welcome
+Disallow: /Editentry
 
 # Block user profiles to avoid duplicate content
 Disallow: /Profile
