@@ -1,0 +1,36 @@
+# Film Firsts - Robots.txt
+# Updated: 2025-11-12
+
+User-agent: *
+Allow: /
+
+# Block admin and private areas
+Disallow: /Admin
+Disallow: /Moderation
+Disallow: /ManageCategories
+Disallow: /ManageUsers
+Disallow: /Settings
+Disallow: /Welcome
+Disallow: /EditEntry
+
+# Block user profiles to avoid duplicate content
+Disallow: /Profile
+
+# Allow important pages
+Allow: /Home
+Allow: /Explore
+Allow: /Category
+Allow: /First
+Allow: /Forum
+Allow: /ForumBoard
+Allow: /ForumTopic
+Allow: /Submit
+Allow: /FAQ
+Allow: /Definitions
+Allow: /Leaderboard
+
+# Sitemap location
+Sitemap: https://filmfirsts.org/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
